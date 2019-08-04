@@ -1,0 +1,106 @@
+    body {
+        background-color: #000000;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #gradient {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    h1,
+    p {
+        background: -webkit-gradient(linear, left top, right bottom, from(#FFF), to(#FFF011));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    header{
+        float:center;
+        width:auto;
+        height: auto;
+    }
+
+    #PortraitP {
+        width: 75px;
+        height: 75px;
+        border: 4px ;
+        border-color: white;
+    }
+    
+    #joli {
+        font-size: 2em;
+    }
+    
+    #Gamer1 {
+        font-family: : Oswald, serif;
+        font-size: 1.2em;
+        border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        -webkit-border-radius: 6px 6px 6px 6px;
+        border: 3px inset #d65032;
+        background-color: rgba(85, 198, 226, 0.3);
+        text-align: center;
+        margin: 0px 15px 0px 15px;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    }
+    
+    #Gamer2 {
+        font-family: : Oswald, serif;
+        font-size: 1.2em;
+        border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        -webkit-border-radius: 6px 6px 6px 6px;
+        border: 3px inset #d65032;
+        background-color: rgba(226, 85, 210, 0.3);
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    }
+    
+    #NewG {
+        font-size: 1.2em;
+    }
+    
+    #console {
+        width: auto;
+        height: auto;
+        float: center;
+        font-size: 1.1em;
+        border-radius: 6px 6px 6px 6px;
+        -moz-border-radius: 6px 6px 6px 6px;
+        -webkit-border-radius: 6px 6px 6px 6px;
+        border: 3px inset #d65032;
+        background-color: rgba(226, 108, 85, 0.87);
+        text-align: justify;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        margin: 0px 0px 0px 0px;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    }
+    
+    #Play1,
+    #Play2,
+    #crayon,
+    #poisson,
+    #poele,
+    #valise,
+    #case,
+    #trou {
+        display: none;
+    }
+    
+    #AKeys {
+        height: 20px;
+        width: 80px;
+    }
+    
+    #jeu {
+        overflow: hidden;
+        border: 5px solid transparent;
+        padding: 2px;
+        border-image: url("http://i383.photobucket.com/albums/oo274/jjmobito168/tile.png") 30;
+    }
